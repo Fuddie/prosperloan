@@ -1,29 +1,44 @@
-# Diamonds Data Exploration
+# Prosper Loan Data Exploration
 
-## Dataset
+## Project overview
 
-This data set is a record of loans from Prosper Loan in the United States. It contains 113,937 loans with 81 variables on each loan. I would attempt to summarize, in this report, the actions taken to analyze the various relationships (univariate, bivariate, and multivariate) between variables in the dataset. This research was undertaken to provide some insights into the performance of loans and the lending business as it relates to Prosper loans. A presentation of our findings would be made at the end of the analysis. Although the data frame has 81 features, this study is only interested in a few of the features. The data set consists of 113,937 rows and 81 columns, implying 113,937 recorded observations with 81 features. The main features of interest to this study include, but are not limited to the following; loan status, loan term, Employment Status, the borrower's home ownership status, state, verifiable income, and occupation. In total, about 11 features were pulled together over which the bulk of our exploration and analysis were done. Several steps were taken to clean the data further. making it suitable for analysis. these steps included; filling null values, dropping duplicate rows, renaming columns, changing data types, and transforming names.
-This data set consist of information on loans given out by Prosper (www.prosper.com), a loan company in the United states of America. The Loan records contained in this data set began from 2005 to 2014, and contains records of 113,937 loans in total. 
+This project explores a dataset of loans issued by Prosper in the United States. The dataset contains **113,937 loan records and 81 variables**. The analysis focuses on selected borrower and loan characteristics to understand patterns in loan performance and the lending business.
 
+The main variables explored include loan status, loan term, employment status, home ownership, state, verifiable income, occupation, borrower APR, borrower rate, estimated yield and estimated return.
 
+## Data preparation
 
+The analysis included several cleaning and preparation steps before exploration, including:
 
-## Summary of Findings
+- handling missing values
+- removing duplicate records
+- renaming columns
+- changing data types
+- standardising selected fields
 
-In the exploration, I found that there was a strong relationship between the
-borrower annual percentage rate and the borrower rate.
-medium term loans is the choice of borrowers and may hold some promise for the investors
-It makes no difference whether a borrower owns his or her home or not.
-California has the highest number of borrowers
-the disparity between the estimates of yields and return is not significant. 
+## Analysis approach
 
+The project uses univariate, bivariate and multivariate analysis to explore relationships among borrower and loan characteristics.
 
-## Key Insights for Presentation
+## Key findings
 
-For the presentation, I focus on just the influence of home ownership on as an indication of a clients ability
-to liquidate their loans.
-of the four Cs of diamonds
-I start by introducing the dataset and relevant variables, followed by the pattern in several distribution, then plot the
-transformed scatterplot.
+- Borrower APR and borrower rate showed a strong relationship.
+- Medium-term loans were common among borrowers in the dataset.
+- Home ownership did not show a major difference in the explored loan behaviour.
+- California had the highest number of borrowers in the dataset.
+- The difference between estimated yield and estimated return was not large in the explored data.
 
+## Presentation focus
 
+The final presentation concentrates on selected relationships that help explain borrower characteristics and loan performance, including home ownership and repayment-related variables.
+
+## Dataset scope
+
+- **Observations:** 113,937 loans
+- **Variables:** 81
+- **Loan period represented:** 2005–2014
+- **Domain:** Consumer lending
+
+## Repository purpose
+
+This is a data analysis portfolio project demonstrating exploratory data analysis, data cleaning, visualisation and interpretation of lending data.
